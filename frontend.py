@@ -21,8 +21,9 @@ if st.button("Shorten URL"):
                 
                 st.success("Short URL Generated!")
                 st.write("### 🔗 Short URL:")
-                st.markdown(f"[{data['short_ur 4l']}]({data['short_url']})")
+                st.markdown(f"[{data['short_url']}]({data['short_url']})")
             else:
                 st.error("Failed to shorten URL. Check if the API is running.")
     else:
         st.warning("Please enter a valid URL.")
+
