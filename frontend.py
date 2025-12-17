@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-
+ 
 API_URL = "http://localhost:8000/shorten"
 
 st.set_page_config(page_title="URL Shortener", page_icon="🔗")
